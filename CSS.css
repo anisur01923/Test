@@ -1,0 +1,665 @@
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+ *{margin: 0; padding: 0%;}
+
+ body{font-family: 'work Sans', sans-serif;
+ font-size: 16px;}
+
+ h1,h2,h3,h4,h5,h6
+
+ {font-family: 'Oswald' , sans-serif;
+ font-weight: 500;}
+
+ section {
+    padding: 80px 0px;
+ }
+
+
+
+ #topbar {
+	background: #f5f5f5;
+	
+ }
+ .container {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+ }
+ .phone {
+    width: 200px;
+    float: left;
+    padding: 15px 10px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+ } 
+ .email {
+    width: 758px;
+    float: left;
+    padding: 15px 10px;
+ }
+ .social {
+    width: 169px;
+    float: left;
+ }
+ .topbarwrapper {
+    overflow: hidden;
+ }
+
+
+ 
+
+    .social a {
+        display: block;
+        float: left;
+        padding: 15px;
+        border-right: 1px solid #ddd;
+        color: black;
+     }
+     .social i {
+         color: black;
+     }
+  
+   .social i:hover{
+    color:red;
+
+    }
+
+   .social a:first-child{
+       border-left: 1 px solid rgb(0, 0, 0);
+   }
+   .phone i {
+       color:DD5347;
+      
+      
+   }
+
+   .phone i {
+    color: red;
+  }
+    
+ .email i {
+    color: red;
+   
+  } 
+ .primarywrapper {
+    overflow: hidden;
+    width: 100%;
+ }
+
+ .primarymenu {
+   background:white;
+}
+    
+ .menu {
+    width: 990px;
+    float: left;
+ }
+ .mainmenuitem i {
+     color: #17295A;
+ }
+ ul.mainmenuitem {
+    list-style: none;
+    float: right;
+
+ }
+
+ ul.mainmenuitem li {
+    float: left;
+ }
+ ul.mainmenuitem li a  {
+    text-decoration: none;
+    font-family: oswald;
+    text-transform: uppercase;
+    font-size: 16px;
+    display: block;
+    padding: 30px 30px;
+    color: #17295A;
+    font-weight: 500px;
+    transition: 0.5s;
+ }
+
+ .logo {
+    margin-top: 30px;
+ }
+
+ #homeslider {
+    background: url(slide-1.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding: 0px;
+    
+ }
+
+ .slidercontent {
+    color: white;
+    width: 650px;
+ }
+
+ .slidercontent h1 {
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 120px;
+    float: left;
+ }
+ .slidercontent p {
+    font-weight: 500;
+    line-height: 25px;
+    width: 490px;
+    margin-bottom: 30px;
+ }
+
+    #workbutton {
+    background: #ff5200;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    margin-bottom: 120px;
+ }
+
+ .slidernav {
+    width: 200px;
+    margin: auto;
+    padding: 30px 0px;
+
+    
+ }
+
+ .slidernav span {
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 4px solid #f25200 ;
+    border-radius: 100%;
+    cursor: pointer;
+    float: left;
+    margin: 5px 5px;
+    
+ }
+
+ #services {
+    background:#f5f5f5;
+
+ }
+
+ .singlebox {
+    width: 225px;
+    background:white;
+    padding: 15px;
+    float: left;
+    margin-right: 30px;
+    transition:0.3s ;
+ }
+
+ .sboxIcon i {
+   color: #fb5200;
+}
+
+ .singlebox:hover {
+    background:#fb5200;
+    color: white;
+    cursor: pointer;
+    
+ }
+
+
+ .singlebox:hover h2, i, a {
+    color: white; 
+
+ } 
+
+ 
+
+ .singlebox:hover .sboxlink a {
+    color: white; 
+ }
+
+ 
+
+ .singlebox h2 {
+    font-size: 26px;
+    margin: 20px 0px ;
+    letter-spacing: 1.5px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #333;
+ }
+ .sboxTitle {
+    text-align: center;
+    width: 240px;
+  }
+
+ .sboxIcon {
+    text-align: center;
+    font-size: 40px;
+    color: #fb5200;
+    padding: 25px 0px;
+ }
+
+ .sboxdec {
+    text-align: center;
+    margin: 25px 0px;
+ }
+
+ .sboxlink {
+    text-align: center;
+    padding: 25px 0px;
+ }
+
+ .sboxlink a {
+    text-decoration: none;
+    color: #fb5200;
+    font-weight: 500;
+ }
+
+
+
+ #WhyChoosUs{
+   background:linear-gradient(#00000029,black)  ,url(why-choose-us1.jpg);
+   background-repeat:no-repeat;
+   background-size: cover;
+   background-position: center center;
+
+ }
+
+ .sIcon {
+   width: 275px;
+}
+
+.sIcon i {
+   font-size: 40px;
+   margin-left: 121px;
+}
+
+.sIcon h2 {
+   font-size: 30px;
+   color: white;
+   text-align: center;
+}
+
+.sIcon h3 {
+   font-size: 20px;
+   color: white;
+   text-align: center;
+   margin-left: 19px;
+}
+
+.SingleIcon {
+   float: left;
+}
+
+.singleiconwrapper {
+   overflow: hidden;
+}
+
+#TeamInfo {
+   background:#f5f6f6;
+}
+
+.TeamInfoContent {
+   text-align: center;
+   margin-bottom: 60px;
+}
+
+.TeamInfoContent h2 {
+   margin-bottom: 30px;
+   font-size: 45px;
+   padding-bottom: 10px;
+   position: relative;
+}
+
+.TeamInfoContent h2:after {content: "";
+    position: absolute;
+    bottom: 0;
+    background: red;
+    width: 70px;
+    border-bottom: 5px solid #fb5200;
+    left:50px;
+    margin-left: 490px;
+}
+
+.TeamInfoContent p {
+   width: 550px;
+   margin: auto;
+   line-height: 25px;
+   font-size: 16px;
+   color: #666;
+}
+
+.TeamContentTittleDecwrapper {
+   overflow: hidden;
+}
+
+.TeamContentTittleDec {
+   width:  292px;
+   float: left;
+}
+
+.TeamContentTittleDec img {
+   width: 210px;
+   padding-bottom: 7px;
+}
+
+.TeamContentTittleDec h2 {
+   font-size: 18px;
+   padding-bottom: 7px;
+}
+
+.TeamContentTittleDec p {
+   width: 260px;
+   color: #666;
+   
+}
+
+.PricePlanInfo {
+   overflow: hidden;
+}
+
+.PricePlanTittle {
+   border: 1px rgb(182, 178, 178);
+   width: 389px;
+   float: left;
+}
+
+.PricePlanTittle h4 {
+  
+   font-size: 25px;
+}
+
+.PricePlanTittle h2 {
+   font-size: 40px;
+}
+
+.PricePlanInfo ul li {color: #666;line-height: 2;}
+
+.PricePlanTittle span {
+   background-color: red;
+   color: white;
+   font-size: 16px;
+   border-radius: 10%;
+   padding: 9px;
+   margin-left: 19px;
+}
+
+.PricePlanBtn {
+   width: 131px;
+}
+
+ul.PricePlanInfoUl {
+   padding: 20px;
+   
+}
+
+.LeftImg {
+   width: 50%;
+   float: left;
+}
+
+.rightContent {
+   width: 50%;
+   float: right;
+}
+
+section#Ideas {
+   overflow: hidden;
+}
+
+.TeamMemberDetails {
+   width: 275px;
+   float: left;
+  
+}
+
+.TeamMemberDetails img {
+   width: 250px;
+}
+
+.TeamMemberWrapper {
+   overflow: hidden;
+}
+
+.TeamMemberDetails h3 {
+   font-weight: 600;
+   padding-left: 66px;
+  
+}
+
+.TeamMemberDetails span {
+   font-size: 13px;
+   color: #666;
+   padding-left: 86px;
+  
+}
+
+#Projects{
+   background:#f5f5f5;
+}
+
+.ProjectsWrapper {
+   overflow: hidden;
+   column-count: 3;
+}
+
+.ProjectsSingleBox {
+   width: 350px;
+   float: left;
+   margin-right: 30px;
+   position: relative;
+   margin-bottom: 30px;
+}
+
+.ProjectsSingleBox img {
+   width: 100%;
+}
+
+.ProjectsInfo {
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+   color: white;
+   font-weight: 600;}
+
+.ProjectsSingleBox:last-child {
+   margin-right: 0px;
+}
+
+.LatestNewsSingleBox {
+   float: left;
+   width: 385px;
+}
+
+.TeamMemberWrapper {
+   overflow: hidden;
+}
+
+.LatestNewsSingleBox img {
+   width: 375px;
+}
+
+.LatestNewsSingleBox p {
+    font-size: 15px;
+    width: 351px;
+    color: #666;
+    padding: 3px;
+}
+
+.LatestNewsSingleBox h2 {
+    font-size: 19px;
+    padding: 3px;
+    font-weight: 600;
+}
+
+.LatestNewsSingleBox span {
+    color: red;
+    padding: 4px;
+}
+
+footer#ContactUs {
+   background: black;
+   padding-top: 200px;
+}
+
+.aboutus {
+   width: 270px;
+   float: left;
+   padding: 11px;
+}
+
+.ContactUsWrapper {
+   overflow: hidden;
+}
+
+.aboutus h3 {
+   color: white;
+   padding-bottom: 7px;
+}
+
+.aboutus p {
+   color: #ddd;
+}
+.social{
+   padding-bottom: 60px;
+}
+      
+
+.aboutus span {
+   display: inherit;
+   line-height: 22px;
+   color: rgb(182 178 178);
+}
+
+.aboutus p {
+   padding-bottom: 3px;
+   color: rgb(182 178 178);
+}
+
+
+.aboutus ul {
+   list-style: none;
+   line-height: 27px;
+
+}
+
+.aboutus ul li a {
+   color: rgb(182 178 178);
+   text-decoration: none;
+   border-bottom: 1px solid #666;
+   display: block;
+}
+
+.rpost {
+   overflow: hidden;
+}
+
+.rpostMeta {
+   width: 50px;
+   background: #666;
+   text-align: center;
+   float: left;
+}
+
+.rposttitle {
+   width: 210px;
+   float: right;
+}
+
+.rposttitle h3 {
+   color: rgb(182 178 178);
+}
+
+.rposttitle span {
+   display: inline;
+}
+
+
+.copyrightwrapper {
+   overflow: hidden;
+}
+
+.copyrightContent {
+   width: 50%;
+   float: left;
+}
+
+.copyrightContentLinks {
+   width: 50%;
+   float: right;
+}
+
+.copyrightContentLinks ul {
+   list-style: none;
+}
+
+.copyrightContentLinks ul li {
+   float: left;
+   padding: 8px;
+   color: #ddd;
+}
+
+
+
+.copyrightwrapper {
+   padding-top: 25px;
+   border-top: 1px solid #999;
+}
+
+.copyrightContent span {
+   color: #ddd;
+}
+
+section#subscribe {
+   position: relative;
+   margin-bottom: -156px;
+}
+
+
+
+.subscribewrapper {
+   overflow: hidden;
+   background:#ff5200;
+}
+
+.subscribeNow {
+   width: 330px;
+   float: left;
+   padding: 30px;
+   border-radius: 4px;
+   overflow: hidden;
+}
+
+.subscribeNow h2 {
+   color: white;
+   font-weight: 600;
+   font-size: 18px;
+   margin-bottom: 13px;
+}
+
+.subscribeNow input {
+   width: 230px;
+   height: 33px;
+   border-radius: 20px;
+   border-color: white;
+}
+
+.subscribeNow button {
+   background: black;
+   color: white;
+   border-radius: 20px;
+   width: 89px;
+   height: 37px;
+   padding: 7px;
+   margin: -75px;
+}
+
+.subscribeNow span {
+   color: white;
+   display: block;
+}
+
+
